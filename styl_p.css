@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-content {
+    margin-left: 1%; /* Shift the content by the width of the sidebar */
+    flex: 1;
+    padding: 1%;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #f4f4f4;
+    padding: 1%;
+    border-left: 10px solid #ccc;
+}
+ul {
+    background-color: #b982f4;
+    margin: 0;
+}
+p {
+    background-color: #8cd7f3;
+    margin: 0;
+}
